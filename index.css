@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-image: url(../imagenes/fondo\ dolares.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1700px;
+    font-family: Nunito;
+    width: 100%;
+}
+
+.encabezado {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(21 128 61);
+    padding: 30px;
+    
+}
+
+.primera-info {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu-navegacion {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: center;
+    font-size: 23px;
+}
+
+.menu-navegacion a {
+    color: white;
+    text-decoration: none;
+    border-right: solid white 1px;
+    padding-right: 40px;
+    
+
+}
+
+.menu-navegacion a:hover {
+    color: black;
+}
+
+.bandera-img {
+    width: 50px;
+}
+
+.producto-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.tabla-precios {
+    padding: 30px;
+    width: 1100px;
+    background-color:  rgba(21, 128, 60, 0.788);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    color: black;
+    transition: transform 0.9s ease;
+}
+
+.tabla-precios:hover {
+    transform: scale(1.1);
+}
+
+.monedas {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    align-items: center;
+    border-bottom: solid rgb(37, 37, 37) 2px ;
+    height: 70px;
+
+
+}
+.monedas div {
+    display: flex;
+    justify-content: center;
+}
+
+.tit {
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+.requerimientos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    backdrop-filter: blur(8px);
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.521);
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.texto-sobre-imagen {
+    position: relative;
+    display: inline-block;
+}
+
+.texto-sobre-imagen img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.texto-sobre-imagen h2 {
+    position: absolute;
+    top: 40%;          
+    left: 5%;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: black;
+
+}
+
+.no-punto {
+    list-style: none;
+    color: rgb(175, 123, 12);
+}
+
+.requerimientos-tipo {
+    display: flex;
+    gap: 90px;
+}
+
+.tipo-residente {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+}
+
+.tipo-empresa {
+    width: 500px;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    
+
+}
+
+@media (max-width: 767px) {
+
+}
