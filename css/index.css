@@ -173,15 +173,68 @@ body {
     width: 30%;
 }
 
+
+
+
 @media (max-width: 1023px) and (min-width: 768px) {
-        .primera-info {
-    width: 100%;
-    flex-direction: column;
-    text-align: center;
+.encabezado {
+    align-items: flex-start;
+    padding: 10px;
+    gap: 30px;
+    align-items: center;
+}
+
+.primera-info{
+    gap: 90px;
+
+}
+
+.info {
+    font-size: 15px;
+}
+
+.primera-info img {
+    width: 50%;
+}
+
+.menu-navegacion {
+    
+    font-size: 20px;
     gap: 20px;
+
+}
+
+.menu-navegacion a {
+    padding-right: 10px;
+}
+
+.tit {
+    font-size: 20px;
+
+}
+.tabla-precios {
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.tabla-precios {
+    width: 90%;
+}
+
+.monedas {
+    gap: 10px;
+    font-size: 22px;
+}
+
+.bandera-img {
+    width: 25%;
 }
 
 }
+
+
+
 
 
 
@@ -270,6 +323,9 @@ body {
 
 .tipo-empresa {
     width: 50%;
+}
+.producto-info {
+    width: 100%;
 }
 
 
