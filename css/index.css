@@ -189,9 +189,7 @@ body {
 
 @media (max-width: 767px) {
     
-body {
-    width: 380px;
-}
+
 .encabezado {
     align-items: flex-start;
     padding: 10px;
